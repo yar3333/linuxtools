@@ -1,0 +1,4 @@
+cp mc.menu /etc/mc/
+chmod 0644 /etc/mc/mc.menu 
+
+sed -i 's/# set tabsize 8/set tabsize 4/g' /etc/nanorc
